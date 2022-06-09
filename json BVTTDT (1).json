@@ -1,0 +1,167 @@
+[
+	{
+		"RefID": "825GTAQB7O",
+		"InvSeries": null,//cần gán giá trị 2C22TDT
+		"InvoiceName": null,// cần gán giá trị "Hóa Đơn Bán Hàng"
+		"InvDate": "0001-01-01T00:00:00+07:00",// cần gán giá trị ngày hóa đơn
+		"CurrencyCode": "VND",
+		"ExchangeRate": 0.0,//sai giá trị đúng là 1
+		"PaymentMethodName": "TM",
+		"ReferenceType": null,
+		"IsInvoiceSummary": false,
+		"OrgInvoiceType": null,
+		"OrgInvTemplateNo": null,
+		"OrgInvSeries": null,
+		"OrgInvNo": null,
+		"OrgInvDate": null,
+		"InvoiceNote": "Hóa đơn",//sai đoạn này không cần truyền gì lên
+		"SellerLegalName": "BV TÂM THẦN ĐỒNG THÁP",// đoạn này bỏ không cần truyền lên
+		"SellerTaxCode": "0101243150-369",// đoạn này bỏ không cần truyền lên
+		"SellerAddress": null,
+		"SellerPhoneNumber": null,
+		"SellerEmail": null,
+		"SellerBankAccount": "37140111591600000",// đoạn này bỏ không cần truyền lên
+		"SellerBankName": "Tại kho bạc nhà nước Cao Lãnh",// đoạn này bỏ không cần truyền lên
+		"SellerFax": null,
+		"SellerWebsite": null,
+		"StockOutLegalName": null,
+		"StockOutTaxCode": null,
+		"InternalCommand": null,
+		"StockOutAddress": null,
+		"StockOutFullName": null,
+		"TransporterName": null,
+		"TransportContractCode": null,
+		"Transport": null,
+		"StockInLegalName": null,
+		"StockInTaxCode": null,
+		"StockInFullName": null,
+		"StockInAddress": null,
+		"ContractCode": null,
+		"ContractDate": null,
+		"BuyerLegalName": "Trịnh Ngọc Ái",//sai => đây là thông tin đơn vị mau hàng
+		"BuyerTaxCode": "",
+		"BuyerAddress": null,
+		"BuyerCode": null,
+		"BuyerPhoneNumber": "",
+		"BuyerEmail": "",
+		"BuyerFullName": null,// đoạn này mới là tên bệnh nhân
+		"BuyerBankAccount": "",
+		"BuyerBankName": "",
+		"ContactName": null,
+		"DiscountRate": null,
+		"TotalAmountWithoutVATOC": null,// đoạn này cần gán số tiền trước thuế
+		"TotalVATAmountOC": null,// đoạn này tiền thuế có thể gán là 0
+		"TotalDiscountAmountOC": null,// đoạn này tiền chiết khấu gán là 0
+		"TotalAmountOC": null,// đoạn này là tổng tiền thanh toán
+		"TotalAmountInWords": null,// đoạn này cho đọc số tiền thanh toán bằng chữ
+		"OriginalInvoiceDetail": [
+			{
+				"ItemType": 0,
+				"LineNumber": 1,
+				"ItemCode": "EIK",
+				"ItemName": "Thu tiền bệnh nhân",
+				"UnitName": "Lần",
+				"Quantity": 1.0,
+				"UnitPrice": 7.0,
+				"DiscountRate": null,/ gán là 0
+				"DiscountAmountOC": null,/ gán là 0
+				"DiscountAmount": null,/ gán là 0
+				"AmountOC": null,//doạn này gán bằng Amount
+				"Amount": 7.0,
+				"AmountWithoutVATOC": null,//đoạn này gán bằng Amount
+				"UnitPriceAfterTax": null,
+				"AmountAfterTax": null,
+				"VATRateName": null,
+				"VATAmountOC": null,// đoạn này gán bằng 0
+				"VATAmount": 0.0,
+				"CustomField1Detail": null,
+				"CustomField2Detail": null,
+				"CustomField3Detail": null,
+				"CustomField4Detail": null,
+				"CustomField5Detail": null,
+				"CustomField6Detail": null,
+				"CustomField7Detail": null,
+				"CustomField8Detail": null,
+				"CustomField9Detail": null,
+				"CustomField10Detail": null,
+				"SortOrder": null,
+				"InventoryItemNote": null,
+				"LotNo": null,
+				"ExpiryDate": null,
+				"UnitCode": null,
+				"TaxReductionAmountOC": null,
+				"TaxReductionAmount": null,
+				"TaxReduction43AmountOC": null,
+				"TaxReduction43Amount": null,
+				"InWards": null,
+				"ChassisNumber": null,
+				"EngineNumber": null,
+				"PublishFee": null
+			}
+		],
+		"TaxRateInfo": null,
+		"FeeInfo": null,
+		"OptionUserDefined": null,
+		"InvoiceTemplateID": null,
+		"CustomField1": "admin",
+		"CustomField2": "2021003130",
+		"CustomField3": "2206000621",
+		"CustomField4": "M8.TK001/06",
+		"CustomField5": "Nữ",
+		"CustomField6": "68",
+		"CustomField7": "01/01/1954",
+		"CustomField8": null,
+		"CustomField9": null,
+		"CustomField10": null,
+		"TotalAmount": null,// đoạn này gán bằng tổng tiền hàng
+		"TotalAmountWithoutVAT": 7.0,
+		"TotalVATAmount": 0.0,
+		"TotalDiscountAmount": null,// đoạn này gán abwngf 0
+		"TotalSaleAmountOC": null,//ạn này gán bằng tiền hàng
+		"TotalSaleAmount": null,//ạn này gán bằng tiền hàng
+		"StockTotalAmountOC": null,
+		"StockTotalAmount": null,
+		"IsTaxReduction": null,
+		"IsTaxReduction43": null,
+		"TotalAmountInWordsVN": null,
+		"TotalAmountInWordsUnsignNormalVN": null,
+		"CompanyBranchBankName": null,
+		"CompanyBankNameWithBranch": null,
+		"ReturnTicketAmount": null,
+		"ReturnTicketAmountOC": null,
+		"ExciseTaxRate": null,
+		"ExciseTaxAmount": null,
+		"ExciseTaxAmountOC": null,
+		"TrsContractNo": null,
+		"TrsBLNo": null,
+		"TrsNameVessel": null,
+		"TrsFlag": null,
+		"TrsArrival": null,
+		"TrsDeparture": null,
+		"RoomNo": null,
+		"CheckIn": null,
+		"CheckOut": null,
+		"ExchangeRateOperation": null,
+		"ListStockName": null,
+		"ListStockAddress": null,
+		"ListFromStockCode": null,
+		"ListToStockCode": null,
+		"FromStockAddress": null,
+		"ToStockAddress": null,
+		"InternalCommandNo": null,
+		"InternalCommandOwner": null,
+		"InternalCommandDate": null,
+		"JournalMemo": null,
+		"PeriodName": null,
+		"PeriodFromDate": null,
+		"PeriodToDate": null,
+		"WaterArrearage": null,
+		"WaterPromotion": null,
+		"WaterUsed": null,
+		"EnvironmmentFeeRate": 0,
+		"EnvironmmentFeeAmount": null,
+		"RegistrationFee": null,
+		"SumOfClockIndex": 0.0,
+		"ClockInfos": null
+	}
+]
